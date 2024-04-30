@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bgContainer {
+  background-color: rgb(42, 163, 165);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.MainHeading {
+  font-size: 20px;
+  color: blue;
+}
+.formContainer {
+  background-color: rgb(232, 224, 255);
+  padding: 120px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+}
+.labelItem {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(39, 127, 85);
+}
+.eachInput {
+  margin-top: 6px;
+  width: 240px;
+  height: 30px;
+  outline: none;
+}
+.eachInputDiv {
+  margin-top: 10px;
+}
+.buttonContainer {
+  text-align: center;
+}
+.calculateButton {
+  margin-top: 20px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0px;
+  background-color: lightblue;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+.simpleIntrestResult {
+  font-size: 16px;
+  margin-top: 25px;
+}
